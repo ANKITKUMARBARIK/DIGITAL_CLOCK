@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    overflow: hidden;
+}
+
+#clock {
+    font-size: 18rem;
+    font-weight: 1000;
+    color: #00f0ff;
+    text-shadow: 0 0 15px #00f0ff;
+}
+
+.contain1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.contain2 {
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger {
+    cursor: pointer;
+    padding: 40px;
+    color: #00f0ff;
+}
+
+.menu {
+    display: none;
+    gap: 15px;
+    background-color: transparent;
+}
+
+.menu div {
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #00f0ff;
+}
+
+.menu.show {
+    display: flex;
+}
+
+.contain1 .hamburger {
+    font-size: 2rem;
+}
+
+.contain1 .menu .material-symbols-outlined {
+    font-size: 2rem;
+}
+
+.mssg-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.message-box {
+    text-align: center;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+
+}
